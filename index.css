@@ -1,0 +1,289 @@
+body{
+    padding: 0;
+    margin: 0;
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    outline: none;
+}
+a:hover {
+	text-decoration: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+/* h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+ol {
+	margin: 0 ;
+	padding: 0 ;
+} */
+header{
+    /* background-color: indianred; */
+    background: url(./image//banner.jpg);
+    padding: 50px 10px;
+    color: #fff;
+    text-align: center;
+    position: relative;
+}
+.light-sky-color{
+    color:  #2479cac9;
+}
+header h1{
+   
+    margin-bottom: 30px;
+}
+header p{
+    max-width: 600px;
+    margin: 0px auto 20px;
+    
+    font-size: 20px;
+}
+header a{
+color: #000;
+text-decoration: none;
+display: inline-block;
+padding: 10px 15px;
+border-radius: 5px;
+background-color: khaki;
+}
+
+nav{
+    background-color: #2479cac9;
+    padding: 10px 0px;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    transition: 0.5s all;
+}
+
+nav ul{
+    list-style-type: none;
+    
+}
+nav ul li{
+    display: inline-block;
+}
+nav ul li a{
+    padding: 10px 15px;
+    color: #fff;
+   text-decoration: none;
+   font-size: 17px;
+   font-weight: 500;
+}
+nav ul li a:hover{
+    color: darkblue;
+    transition: 0.2s all;
+}
+.search-btn{
+    padding: 5px 15px;
+    background-color: #247acaea;
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+    margin-right: 15px;
+    box-shadow: 0px 0px 10px #2479ca8c;
+    transition: 0.2s all;
+    font-size: 17px;
+}
+.search-btn:hover{
+    background-color: #2479ca8c; 
+    color: darkblue;
+}
+section{
+    display: flex;
+    display: -webkit-flex;
+    max-width: 100%; 
+}
+article{
+    display: flex;
+    display: -webkit-flex;
+    display: -moz-flex;
+    flex-direction: column;
+    margin:0px 1px;
+    width: calc( 70% - 2px);
+}
+.about-us{
+    display: flex;
+    display: -webkit-flex;
+    display: -moz-flex;
+    border-bottom: 2px solid #2479ca8c;
+    padding: 10px 0px;
+    max-width: 100%;
+}
+.about-p1{
+    width: 70%;
+    padding: 10px;
+}
+.about-p2{
+    width: 30%;
+}
+.about-p2 img{
+    max-width: 100%;
+}
+aside{
+    display: flex;
+    display: -webkit-flex;
+    display: -moz-flex;
+    flex-direction: column;
+    width:  30% ;
+    background-color:#2479ca8c;
+    color: #fff;
+    padding: 10px;
+}
+video{
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px;
+    height: 240px;
+    max-width: 100%;
+}
+.subnmavi{
+    list-style: none;
+}
+.subnmavi li{
+ padding: 5px 0px;
+}
+.subnmavi li a{
+    color: #fff;
+}
+.subnmavi li a:hover{
+    color: blue;
+}
+.learn-site{
+    margin: 0;
+}
+.learn-site li{
+padding: 5px 0px;
+}
+.learn-site li a{
+    color: #fff;
+}
+.learn-site li a:hover{
+    color: blue;
+}
+article{
+    max-width: 100%;
+    padding: 20px 10px;
+}
+figure{
+    
+    background-color: #2479cac9;
+    border-radius: 5px;
+    padding: 10px;
+
+}
+figure img{
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+figure figcaption{
+    font-size: 17px;
+    margin: 10px;
+   color: #fff;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: #2479cac9;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #2479cac9;
+  }
+  
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+
+footer{
+    background-color: #2479cac9;
+    position: relative;
+    padding: 50px 10px;
+    text-align: center;
+    color: #fff;
+}
+.social{
+    list-style: none;
+
+}
+.social li{
+    display: inline-block;
+    margin: 0px 5px;
+}
+.social li a{
+    width: 40px;
+    height: 40px;
+    display: block;
+    line-height: 40px;
+    font-size: 20px;
+    background-color: #fff;
+    color: #2479cac9;
+    border-radius: 50%;
+    transition: 0.5s all;
+}
+.social li a:hover{
+    background-color: #2479cac9;
+    color: #fff;
+}
+details summary:focus{
+    outline: none;
+}
+details summary{
+    padding: 10px;
+    cursor: pointer;
+}
+details summary:hover{
+background-color:#2479cac9;
+
+}
+@media (max-width: 800px) {
+
+    .about-p1{
+        width: 50%;
+        max-width: 100%;
+    }
+    .about-p2{
+        width: 50%; 
+    }
+    section{
+        flex-direction: column; 
+    }
+    article{
+        width: auto;
+        max-width: 100%;
+    }
+    aside{
+        width: auto;
+        max-width: 100%;
+    }
+    figure img{
+        width: auto;
+        max-width: 100%;
+    }
+}
